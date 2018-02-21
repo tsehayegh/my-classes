@@ -341,8 +341,8 @@ function addTripInfoMarker(destination, distance, duration){
         shape: shape,
         label: {
         text: tripInfo, 
-        color: 'black',
-        fontsize: '40px'}
+        color: 'blue',
+        fontsize: '40pt'}
   });
     
   state.markers.push(marker);
